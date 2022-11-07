@@ -1,9 +1,9 @@
 # AiogramDateTimeFilter
 Этот фильтр представляет собой готовое решение для "вытаскивания" даты и времени из сообщений пользователя и получения на выходе объекта timedelta, что может быть полезно при работе с такими функциями как: bot.ban_chat_membet, bot.mute_chat_member, bot.restrict_chat_member, и т.п., также может быть полезен для чего-то другого, фильтр, необходимый для создания чат-ботов.
 
-                                                          ⚠️ВНИМАНИЕ⚠️ 
+                                                    ⚠️ВНИМАНИЕ⚠️ 
                                          
-                               Фильтр тестировался на версии aiogram 3.0.0b4, он может не работать на иных версиях
+                         Фильтр тестировался на версии aiogram 3.0.0b4, он может не работать на иных версиях
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -26,8 +26,8 @@
 
 This filter is a ready-made solution for "pulling out" the date and time from user messages and getting a timedelta object at the output, which can be useful when working with functions such as: bot.ban_chat_membet, bot.mute_chat_member, bot.restrict_chat_member, etc., it can also be useful for something else, the filter required to create chatbots.
 
-                                                         ⚠️ATTENTION⚠️ 
+                                                   ⚠️ATTENTION⚠️ 
 
-                              The filter works on aiogram version 3.0.0b4, it may not work on other versions
+                        The filter works on aiogram version 3.0.0b4, it may not work on other versions
                               
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
