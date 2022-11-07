@@ -7,11 +7,10 @@ from aiogram.types import Message
 class HasTimeFilter(BaseFilter):
     """
     Этот фильтр проверяет наличие указания времени в сообщении
-    и, если находит, возвращает кортеж с объектом `datetime`
+    и, если находит, возвращает словарь с объектом `datetime`
 
     :returns: :class: <Dict["messageDateTime", None]> or :class: <Dict["messageDateTime", <datetime>]>
     """
-    key = "has_datetime"
 
     def __init__(self):
         super().__init__()
